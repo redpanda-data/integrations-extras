@@ -147,8 +147,6 @@ INSTANCE_DEFAULT_GROUPS = [
     'redpanda.cluster',
     'redpanda.io_queue',
     'redpanda.kafka',
-    'redpanda.kafka.consumer_group_info',
-    'redpanda.kafka.consumer_group_offset',
     'redpanda.memory',
     'redpanda.partitions',
     'redpanda.raft',
@@ -160,7 +158,8 @@ INSTANCE_DEFAULT_GROUPS = [
 INSTANCE_ADDITIONAL_GROUPS = [
     'redpanda.cloud',
     'redpanda.controller',
-    'redpanda.kafka.consumer_group_lag',
+    'redpanda.kafka.consumer_group_info',
+    'redpanda.kafka.consumer_group_offset',
     'redpanda.node_status',
     'redpanda.pandaproxy',
     'redpanda.scheduler',
